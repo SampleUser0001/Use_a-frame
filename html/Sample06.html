@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <title>A-Frame</title>
+    <style>
+        a-sphere {
+            color: #AFA;
+        }
+    </style>
+</head>
+<body>
+    <a-scene>
+        
+        <a-entity>
+            <a-sphere position="0 1 -4"
+                      scale="1 1 1"
+                      shadow="receive: true"></a-sphere>
+            <a-animation  attribute="position"
+                          dur="3000"
+                          to="0 0.5 0"
+                          repeat="indefinite"
+                          direction="alternate"></a-animation>
+        </a-entity>
+        <!-- 
+        <a-entry>
+            <a-sphere position="0 1 -4"
+                      scale="1 1 1"
+                      shadow="receive: true"></a-sphere>
+            <a-animation  attribute="position"
+                          dur="3000"
+                          to="0 0.5 0"
+                          repeat="indefinite"
+                          direction="alternate"></a-animation>
+        </a-entry>
+-->
+        <a-plane position="0 0 -4"
+                 rotation="-90 0 0"
+                 width="4"
+                 height="4"
+                 color="#ccc"
+                 shadow="receive: true"></a-plane>
+        <a-entity light="type: directional; color: #fff; castShadow:true;"
+                  position="-10 10 10"></a-entity>
+        </a-scene>
+</body>
+</html>
