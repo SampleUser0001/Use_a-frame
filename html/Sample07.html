@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://rawgit.com/gasolin/aframe-href-component/master/dist/aframe-href-component.min.js"></script>
+    <title>A-Frame</title>
+</head>
+<body>
+    <a-scene>
+        <a-entity
+            geometry="primitive: sphere;"
+            scale="1 1 1;" 
+            material="color: #AFA;"
+            position="0 1.5 -4;"
+            shadow="receive: true"
+            animation="
+                property: object3D.position.y;
+                dur: 3000;
+                to: 1.0;
+                dir: alternate;
+                loop: true"
+            href="https://github.com/gasolin/aframe-href-component">
+        </a-entity>
+        <a-plane position="0 0 -4"
+                    rotation="-90 0 0"
+                    width="4"
+                    height="4"
+                    color="#ccc"
+                    shadow="receive: true"></a-plane>
+        <a-entity light="type: directional; color: #fff; castShadow:true;"
+                    position="-10 10 10"></a-entity>
+    </a-scene>
+</body>
+</html>

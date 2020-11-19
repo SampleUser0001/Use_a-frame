@@ -7,3 +7,4 @@ nginx:
     volumes:
         - ./index.html:/usr/share/nginx/html/index.html
         - ./html:/usr/share/nginx/html/html
+        - ./tmp:/usr/share/nginx/html/tmp
