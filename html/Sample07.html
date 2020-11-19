@@ -10,24 +10,22 @@
     <a-scene>
         <a-entity
             geometry="primitive: sphere;"
-            scale="1 1 1;" 
+            scale="1.5 1.5 1.5;" 
             material="color: #AFA;"
-            position="0 1.5 -4;"
+            position="-5 1.5 -10;"
             shadow="receive: true"
-            animation="
-                property: object3D.position.y;
-                dur: 3000;
-                to: 1.0;
-                dir: alternate;
-                loop: true"
-            href="https://github.com/gasolin/aframe-href-component">
+            >
         </a-entity>
-        <a-plane position="0 0 -4"
-                    rotation="-90 0 0"
-                    width="4"
-                    height="4"
-                    color="#ccc"
-                    shadow="receive: true"></a-plane>
+
+        <a-entity
+            geometry="primitive: sphere;"
+            scale="0.5 0.5 0.5;" 
+            material="color: #AFA;"
+            position="2.0 1.5 -4;"
+            shadow="receive: true"
+            >
+        </a-entity>
+
         <a-entity light="type: directional; color: #fff; castShadow:true;"
                     position="-10 10 10"></a-entity>
     </a-scene>
