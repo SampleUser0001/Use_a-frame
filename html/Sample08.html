@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/gasolin/aframe-href-component/master/dist/aframe-href-component.min.js"></script>
+    <title>A-Frame</title>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="homeThumbnail" src="home.jpg">
+        </a-assets>
+        
+        <a-entity
+            link="href: ./Sample01.html; title: 他のページ; image: #homeThumbnail">
+        </a-entity>
+        <a-entity
+            light="type: directional; color: #fff; castShadow:true;"
+            position="-10 10 10"></a-entity>
+    </a-scene>
+</body>
+</html>
