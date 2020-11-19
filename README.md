@@ -12,6 +12,10 @@ http://penguin.linux.test/
 
 ## URL
 
+### Github Pages
+[https://sampleuser0001.github.io/Use_a-frame/](https://sampleuser0001.github.io/Use_a-frame/)
+
+### S3
 https://ittimfn-public.s3-ap-northeast-1.amazonaws.com/AR/index.html
 
 ## 公開
