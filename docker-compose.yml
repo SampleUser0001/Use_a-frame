@@ -1,10 +1,13 @@
 
 nginx:
-    image: nginx:latest
+    build: .
     container_name: use_a-frame
+    hostname: aframe
     ports: 
         - "80:80"
     volumes:
         - ./index.html:/usr/share/nginx/html/index.html
         - ./html:/usr/share/nginx/html/html
         - ./tmp:/usr/share/nginx/html/tmp
+        - ./other_site_sample:/usr/share/nginx/html/other_site_sample
+        
