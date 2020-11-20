@@ -3,11 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>A-Frame</title>
-    <script type="text/javascript" src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/gasolin/aframe-href-component/master/dist/aframe-href-component.min.js"></script>
-
+    <script src="../javascript/build.js"></script>
 </head>
-<body>
+<body onload="init()">
     <a-scene>
         <!-- Camera + cursor. -->
         <a-entity camera look-controls>
@@ -31,7 +29,7 @@
             to: 1.0;
             dir: alternate;
             loop: true;"
-            link="href: 'https://github.com/gasolin/aframe-href-component'">
+            href="https://www.yahoo.co.jp">
         </a-entity>
         <a-entity light="type: directional; color: #fff; castShadow:true;"
                 position="-10 10 10"></a-entity>

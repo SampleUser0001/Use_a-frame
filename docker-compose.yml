@@ -1,6 +1,6 @@
 
 nginx:
-    build: .
+    image: nginx
     container_name: use_a-frame
     hostname: aframe
     ports: 
@@ -10,4 +10,5 @@ nginx:
         - ./html:/usr/share/nginx/html/html
         - ./tmp:/usr/share/nginx/html/tmp
         - ./other_site_sample:/usr/share/nginx/html/other_site_sample
+        - ./javascript:/usr/share/nginx/html/javascript
         
