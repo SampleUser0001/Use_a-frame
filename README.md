@@ -4,6 +4,7 @@ a-frameを使ってみる
 ## 起動
 
 ```
+docker-compose build
 docker-compose up -d
 ```
 
@@ -13,16 +14,8 @@ http://penguin.linux.test/
 ## URL
 
 ### Github Pages
+
 [https://sampleuser0001.github.io/Use_a-frame/](https://sampleuser0001.github.io/Use_a-frame/)
-
-### S3
-https://ittimfn-public.s3-ap-northeast-1.amazonaws.com/AR/index.html
-
-## 公開
-
-```
-aws s3 cp html/ s3://ittimfn-public/AR/ --recursive
-```
 
 ## 参考
 
@@ -34,3 +27,4 @@ aws s3 cp html/ s3://ittimfn-public/AR/ --recursive
   - aframe-href-component動かすのにnpmいるじゃん…
 - [もろず blog:結局のところ node.js をサーバーにインストールするにはどうやればいいのか？](https://moro-archive.hatenablog.com/entry/2015/07/27/225747)
   - Node.jsのインストール方法について
+- [文系プログラマー:require is not definedを解消してrequireを使えるようにする](https://uraway.hatenablog.com/entry/2015/11/30/require_is_not_defined%E3%82%92%E8%A7%A3%E6%B6%88%E3%81%97%E3%81%A6require%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B)
