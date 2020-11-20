@@ -30,3 +30,7 @@ aws s3 cp html/ s3://ittimfn-public/AR/ --recursive
 - [Awesome Blog:S3バケットの全公開方法](https://awesome-linus.com/2020/02/04/s3-bucket-public-access/)
 - [Github:aframe-href-component](https://github.com/gasolin/aframe-href-component)
   - リンクを貼りたい
+- [Github:nodesource:distributions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+  - aframe-href-component動かすのにnpmいるじゃん…
+- [もろず blog:結局のところ node.js をサーバーにインストールするにはどうやればいいのか？](https://moro-archive.hatenablog.com/entry/2015/07/27/225747)
+  - Node.jsのインストール方法について

@@ -3,9 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <title>A-Frame</title>
-    <script src="../javascript/build.js"></script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- 
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script>
+        function init(){
+        }
+    </script>
+-->
+    <script src="main.js" ></script>
+    <script src="bundle.js"></script>
 </head>
-<body onload="init()">
+<body>
+    require('aframe-href-component');
     <a-scene>
         <!-- Camera + cursor. -->
         <a-entity camera look-controls>
