@@ -23,6 +23,15 @@ package.jsonに記載されているaframeのバージョンがかなり古い�
 
 使用の想定としてはWebカメラなので、スライドで動かせなくて良い。
 
+### 整理の観点
+
+- A-Frameバージョン
+- hrefあり/なし
+- PC/スマホ
+- スマホ 縦/横
+- 表示できた/できない
+- タップできた/できない
+
 ## 参考
 
 - [Github:gasolin:aframe-href-component](https://github.com/gasolin/aframe-href-component)
