@@ -21,6 +21,8 @@ PCブラウザから参照するのは問題なし。
 package.jsonに記載されているaframeのバージョンがかなり古い（デフォルトは0.2.0。現時点の最新は1.0.4。1.0.4はビルドが通らなかった。）ため、その影響が考えられる。  
 そもそも、ライブラリ自体が古すぎるのではないかという疑いもあるが……
 
+使用の想定としてはWebカメラなので、スライドで動かせなくて良い。
+
 ## 参考
 
 - [Github:gasolin:aframe-href-component](https://github.com/gasolin/aframe-href-component)
