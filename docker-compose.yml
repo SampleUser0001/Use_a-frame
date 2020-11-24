@@ -1,6 +1,7 @@
 
 nginx:
-    build: .
+    # build: .
+    image: nginx
     container_name: use_a-frame
     hostname: aframe
     ports: 

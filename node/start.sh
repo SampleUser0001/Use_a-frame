@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec node app.js
+exec npm run dev
